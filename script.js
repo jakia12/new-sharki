@@ -32,7 +32,7 @@ menuIcon.onclick = () => {
 // Get all the images
 function get_random_image() {
     // Generate a random number between 1 and 9887
-    let random_index = Math.floor(Math.random() * 9887) + 1;
+    let random_index = Math.floor(Math.random() * 330) + 1;
 
     // Construct the filename
     let selected_image = `${random_index}.jpeg`;
